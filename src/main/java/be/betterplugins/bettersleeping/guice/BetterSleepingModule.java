@@ -57,7 +57,7 @@ public class BetterSleepingModule extends AbstractModule
     @Named("prefix")
     public String providePrefix()
     {
-        return Theme.primaryColor + "[BS4] " + Theme.secondaryColor;
+        return Theme.primaryColor + "§7[§6craftermc.net§7] " + Theme.secondaryColor;
     }
 
     @Provides
